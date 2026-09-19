@@ -1,0 +1,152 @@
+<!--
+  The Pizza Incident.
+
+  The page is the whole handout. Story, a name, a starting link, nothing else.
+  The trail runs through public profiles, so there is nothing to download.
+
+  Styled off rushd-sy.org: #4300ff, the site's own light palette, its 0.625rem
+  radius and its blue-tinted shadows. No embedded fonts and no logo files, so
+  the folder a team unzips is the page and the archive and nothing else. Ubuntu
+  is asked for first and the reader's own sans is used if they do not have it.
+
+  The page carries the story and nothing else. Flag format, scope and the
+  do-not-contact rule all live in RULES.md and in the challenge description on
+  the scoreboard, so they are not repeated here.
+-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Pizza Incident</title>
+<style>
+  :root{
+    /* Straight off the site, oklch converted so it renders the same in an
+       older browser at the venue. */
+    --background:#f8fafe;
+    --card:#ffffff;
+    --foreground:#161616;
+    --muted:#656972;
+    --border:#dce0e8;
+    --primary:#4300ff;
+    --accent:#7f96ff;
+    --secondary:#20bf55;
+    --radius:.625rem;
+    --sans:Ubuntu,ui-sans-serif,system-ui,-apple-system,sans-serif;
+  }
+
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;
+    background:var(--background);
+    color:var(--foreground);
+    font-family:var(--sans);
+    font-size:1.05rem;
+    line-height:1.75;
+  }
+
+  .page{max-width:44rem;margin:0 auto;padding:clamp(1.5rem,5vw,3.5rem) 1.15rem 5rem}
+
+  header{display:flex;align-items:center;gap:.7rem;margin-bottom:clamp(2rem,6vw,3.5rem)}
+  header .spacer{flex:1}
+  header .event{font-size:.78rem;font-weight:700;letter-spacing:.02em;
+    color:var(--primary);background:#4300ff12;border-radius:999px;
+    padding:.3rem .8rem}
+
+  h1{font-weight:700;letter-spacing:-.02em;line-height:1.05;
+    font-size:clamp(2.1rem,7vw,3.2rem);margin:0 0 1.6rem}
+
+  .card{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    padding:clamp(1.3rem,4vw,2.2rem);
+    /* The site tints its shadows with the brand blue rather than black. */
+    box-shadow:0 1px 2px #4300ff0d, 0 12px 32px -12px #4300ff33;
+  }
+
+  p{margin:0 0 1.1rem}
+  .card p:last-child{margin:0}
+
+  .ask{
+    margin-top:1.5rem;padding-top:1.5rem;border-top:1px solid var(--border);
+  }
+  .ask strong{font-weight:700}
+
+  .format{margin:.9rem 0;display:flex;flex-wrap:wrap;align-items:center;
+    gap:.5rem .8rem}
+  .format .eg{font-size:.86rem;color:var(--muted)}
+  .format .eg code{font-size:.86rem;padding:.3rem .55rem;
+    background:#0000000a;color:var(--muted);border-color:var(--border)}
+
+  .lost{margin:1.2rem 0 0;font-size:.9rem;color:var(--muted)}
+  .format code{
+    display:inline-block;
+    font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    font-size:.95rem;
+    background:#4300ff0f;
+    color:var(--primary);
+    border:1px solid #4300ff33;
+    border-radius:var(--radius);
+    padding:.55rem .9rem;
+    word-break:break-word;
+  }
+
+
+</style>
+
+<div class="page">
+
+  <header>
+    <span class="event">Al-Kindi CTF</span>
+    <span class="spacer"></span>
+  </header>
+
+  <h1>The Pizza Incident</h1>
+
+  <div class="card">
+    <p>Assalamu alaikum everyone. My name is Mohamad Alamin Yassin and I am
+    going to tell you a beef story between me and Qassab, so hold
+    your horses.</p>
+
+    <p>Years ago, at the ACPC and the SCPC. We had pizza delivered to eat
+    through the contests and after them.</p>
+
+    <p>I asked everybody for a slice. Teammates, strangers, young lads and
+    laddies, volunteers, coaches, the media team, the IT team, the people
+    organising the whole contest. You name it, I asked them. Nobody ever
+    said no.</p>
+
+    <p><strong>Qassab</strong> said no. He did not think about it for even a
+    second. Not even one slice! He has been my enemy since.</p>
+
+    <p>That made me sad and sick, so I went to the Al-Kindi Hospital. Only 2
+    SCPC friends came to visit me there, and Qassab was not one of them,
+    obviously. They took a couple of pictures of the place while they were at
+    it.</p>
+
+    <p>We are friends again now, wink wink. But after all these years I still
+    want to know exactly how he performed at the Arab CPC, and I am not about
+    to give him the satisfaction of asking.</p>
+
+    <div class="ask">
+      <p><strong>First, his scoreboard row.</strong> Find what his team at the
+      time was called, and from the ArabCPC that same year: how many problems
+      they solved, their total time, and their last solution. Joined together
+      with no spaces, that is the password to the zip in this folder.</p>
+
+      <p class="format">
+        <code>TeamnameSolvedTotaltimeLastsolution</code>
+        <span class="eg">for example <code>Dota7888321</code></span>
+      </p>
+
+      <p><strong>Then, open it.</strong> Inside you will find a
+      <code>README.md</code> and two photographs. The README explains what to
+      do with them and what shape the flag takes, so I will not repeat myself
+      here.</p>
+
+      <p class="lost"><strong>You do not need to sign in to any service or
+      social media platform</strong> to finish this. Speed matters in this CTF,
+      so the long way round is not the only way round.</p>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gateway name="al-kindi-mx" generated="2024-11-28T15:40:00+03:00">
+  <transport host="mail.al-kindi.sy" port="587" tls="required"/>
+  <blocklist>
+    <domain added="2024-11-28">al-kindi-invoices.sy</domain>
+    <ip added="2024-11-28">45.144.30.12</ip>
+  </blocklist>
+  <campaign-history>
+    <!-- retired at the end of Q3. Do not reuse prior wave indicators. -->
+    <previous-wave-flag>SyriaCTF{ph1sh_c4mp41gn_st4g3}</previous-wave-flag>
+  </campaign-history>
+</gateway>

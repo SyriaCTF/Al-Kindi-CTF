@@ -1,0 +1,18 @@
+Return-Path: <billing@al-kindi-invoices.sy>
+Received: from mx3.al-kindi-invoices.sy ([45.144.30.12])
+        by mail.al-kindi.sy; Thu, 28 Nov 2024 09:14:22 +0300
+From: "Al-Kindi Billing" <billing@al-kindi-invoices.sy>
+To: finance@al-kindi.sy
+Subject: Invoice INV-2024-Q4-8841 overdue
+X-Mailer: AlKindi-PhishKit/1.0
+X-Campaign: KindiSpider-Q4
+X-Originating-IP: [45.144.30.12]
+Authentication-Results: mail.al-kindi.sy; spf=fail; dkim=none; dmarc=fail
+Content-Type: text/plain; charset=utf-8
+
+Your invoice is 14 days overdue. Review it at the portal link below
+and confirm the transfer today.
+
+  https://al-kindi-invoices.sy/portal/login
+
+Accounts Receivable
